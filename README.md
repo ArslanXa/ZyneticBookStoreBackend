@@ -4,7 +4,7 @@
 
   <h3>1. Clone the Repository</h3>
   <p>Clone the repository to your local machine using the following command:</p>
-  <pre><code>git clone [https://github.com/kumarwhocodes/zynetic_assignment.git](https://github.com/ArslanXa/ZyneticBookStoreBackend.git)</code></pre>
+  <pre><code>git clone (https://github.com/ArslanXa/ZyneticBookStoreBackend.git)</code></pre>
   <p><em>But, preferably download the zip file from Google Forms.</em></p>
 
   <h3>2. Navigate to the Project Directory</h3>
