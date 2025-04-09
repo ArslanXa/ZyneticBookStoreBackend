@@ -42,7 +42,7 @@
 
   <details>
     <summary><strong>Sample Request/Response for Signup</strong></summary>
-    <pre><code>POST /api/signup
+    <pre><code>POST /api/auth/register
 Content-Type: application/json
 
 {
@@ -58,7 +58,7 @@ Content-Type: application/json
 
   <details>
     <summary><strong>Sample Request/Response for Login</strong></summary>
-    <pre><code>POST /api/login
+    <pre><code>POST /api/auth/login
 Content-Type: application/json
 
 {
@@ -162,7 +162,7 @@ Content-Type: application/json
 
   <details>
     <summary><strong>Sample Response for Get All Books</strong></summary>
-    <pre><code>GET /api/books/get-all
+    <pre><code>GET /api/books/getallbooks
 
 Response:
 200 OK
@@ -238,7 +238,7 @@ Response:
 
   <details>
     <summary><strong>Sample Response for Pagination</strong></summary>
-    <pre><code>GET /api/books/paged?page=0&size=5&sort=price,desc
+    <pre><code>GET /api/books/getallbookspaged?page=0&size=5&sort=price,desc
 
 Response:
 200 OK
